@@ -18,5 +18,5 @@ from django.contrib import admin
 from landing.views import *
 urlpatterns = [
     url(r'^$', home, name='home' ),
-    # url(r'',include('landing.urls')),
+    url(r'^project/$', project_read_more, name='projectreadmore' ),
 ]

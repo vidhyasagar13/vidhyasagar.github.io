@@ -2,7 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d37a869b-10c5-4f92-960b-e4814a0577cf" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/landing/templates/landing/projects.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/landing/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/landing/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/landing/templates/landing/landing.html" beforeDir="false" afterPath="$PROJECT_DIR$/landing/templates/landing/landing.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/landing/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/landing/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/landing/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/landing/views.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -61,6 +66,7 @@
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
+        <env name="DJANGO_SETTINGS_MODULE" value="portfolio.settings" />
       </envs>
       <option name="SDK_HOME" value="" />
       <option name="WORKING_DIRECTORY" value="" />
@@ -99,6 +105,7 @@
       <workItem from="1576919949130" duration="3875000" />
       <workItem from="1580853457676" duration="606000" />
       <workItem from="1580854512369" duration="3376000" />
+      <workItem from="1584062485970" duration="250000" />
     </task>
     <servers />
   </component>

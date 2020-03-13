@@ -1,0 +1,27 @@
+{% load staticfiles %}
+<div class="col-md-8 order-2">
+    {% for project in projects %}
+         <section data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-duration="700" id="post-37" class="aos-item post-37 post type-post status-publish format-gallery has-post-thumbnail hentry category-lifestyle tag-general tag-lifestyle tag-london tag-village post_format-post-format-gallery">
+            <div class="blogitem text-center fullImg mobileImg_S">
+               <a href="#">
+                  <h2 class="blogitem__title blogitem__title--separator">{{ project.title }}</h2>
+               </a>
+               <div class="lineGeneral"></div>
+               <div class="blogitem__description">
+                  <div>
+                     <p>{{ project.description }}</p>
+                  </div>
+                  <p><a href="#" class="more-link"><span>Read More</span></a></p>
+               </div>
+               <div class="iteminfo">
+                  <div class="iteminfoCont time">
+                     <i class="fa fa-clock"></i>{{ project.date }}                 </div>
+                  <div class="clearfix"></div>
+               </div>
+               <div class="bgOverlay"></div>
+                              <div class="bgImage" style="background-image: {% static 'landing/wp-demo/zunday/wp-content/uploads/2019/01/slider-1-1-674x1024.jpeg'%}"></div>
+               <div class="clearfix"></div>
+            </div>
+         </section>
+    {% endfor %}
+      </div>

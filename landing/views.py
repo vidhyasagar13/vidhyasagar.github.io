@@ -1,9 +1,23 @@
 # -*- coding: utf-8 -*-
 from __future__ import unicode_literals
+
+import random
+
+from django.http import FileResponse
 from django.shortcuts import render, HttpResponseRedirect,HttpResponse
 
 # Create your views here.
+from landing.models import Project
+
+
 def home(request):
-    # return render(HttpResponseRedirect('Hello'))
-    # return HttpResponse('hello')
-    return render(request,'landing/landing.html')
+    projects = Project.objects.all()
+    skills = ['Data Science', 'Artificial Intelligence', 'PyTorch', 'Pandas', 'Matplotlib', 'Numpy', 'Pyspark', 'Python', 'Netica', 'Jess', 'Ruby', 'Django', 'Ruby On Rails', 'Machine Learning']
+    random.shuffle(skills)
+    recent_posts = projects.order_by('-created_at')
+    recent_posts = recent_posts[0:3]
+    recent_posts = recent_posts.values('title')
+    return render(request,'landing/landing.html',{'projects':projects, 'skills': skills[0:7], 'recent_posts': recent_posts})
+
+def project_read_more(request):
+    return render(request, 'landing/project_readmore.html')
