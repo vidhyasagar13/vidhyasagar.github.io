@@ -426,7 +426,7 @@
         <ul class="nav__social">
             <li><a href="{% static 'landing/Vidhyasagar_Udayakumar_resume.pdf' %}" class="nav_social__item" target="_blank"><i class="fa fa-file-pdf-o"></i></a>
             </li>
-            <li><a href="{% url 'aboutme' %}" class="nav_social__item"><i class="fa fa-user-graduate"></i></a>
+            <li><a href="{% url 'home' %}" class="nav_social__item"><i class="fa fa-arrow-left"></i></a>
             </li>
             <li><a href="https://github.com/vidhyasagar13" class="nav_social__item"><i class="fab fa-github"></i></a>
             </li>
@@ -510,7 +510,7 @@
 {#        </section>#}
         <div class="container demoS">
             <div class="row">
-                {% include 'landing/projects.html' %}
+                {% include 'landing/aboutmeContent.html' %}
                 <div class="col-md-4 order-2">
                     <div class="widgetContainer sidebar sidebar_Side aos-item" data-aos="fade-up"
                          data-aos-duration="700">

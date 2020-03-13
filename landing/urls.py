@@ -24,5 +24,6 @@ from django.conf import settings
 urlpatterns = [
     url(r'^$', home, name='home' ),
     url(r'^project/([0-9+])/$', project_read_more, name='projectreadmore' ),
+    url(r'^aboutme/$',aboutme,name='aboutme')
 ]  + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
 

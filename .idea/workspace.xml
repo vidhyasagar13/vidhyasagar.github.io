@@ -2,8 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d37a869b-10c5-4f92-960b-e4814a0577cf" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/landing/static/landing/Vidhyasagar_Udayakumar_resume.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/landing/templates/landing/aboutme.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/landing/templates/landing/aboutmeContent.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/landing/templates/landing/landing.html" beforeDir="false" afterPath="$PROJECT_DIR$/landing/templates/landing/landing.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/landing/templates/landing/project_readmore.html" beforeDir="false" afterPath="$PROJECT_DIR$/landing/templates/landing/project_readmore.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/landing/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/landing/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/landing/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/landing/views.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -102,7 +108,7 @@
       <workItem from="1580853457676" duration="606000" />
       <workItem from="1580854512369" duration="3376000" />
       <workItem from="1584062485970" duration="1054000" />
-      <workItem from="1584063991028" duration="3957000" />
+      <workItem from="1584063991028" duration="6574000" />
     </task>
     <servers />
   </component>

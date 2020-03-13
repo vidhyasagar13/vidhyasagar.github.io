@@ -23,3 +23,14 @@ def project_read_more(request,id):
     project = Project.objects.get(id=id)
     other_project = Project.objects.exclude(id=id).first()
     return render(request, 'landing/project_readmore.html',{'project':project, 'other_project':other_project})
+
+def aboutme(request):
+    projects = Project.objects.all()
+    skills = ['Data Science', 'Artificial Intelligence', 'PyTorch', 'Pandas', 'Matplotlib', 'Numpy', 'Pyspark',
+              'Python', 'Netica', 'Jess', 'Ruby', 'Django', 'Ruby On Rails', 'Machine Learning']
+    random.shuffle(skills)
+    recent_posts = projects.order_by('-created_at')
+    recent_posts = recent_posts[0:3]
+    recent_posts = recent_posts.values('title', 'id')
+    return render(request, 'landing/aboutme.html',
+                  {'projects': projects, 'skills': skills[0:7], 'recent_posts': recent_posts})
