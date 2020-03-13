@@ -15,8 +15,14 @@ Including another URLconf
 """
 from django.conf.urls import url,include
 from django.contrib import admin
+from django.conf.urls.static import static
+
 from landing.views import *
+from django.conf import settings
+
+
 urlpatterns = [
     url(r'^$', home, name='home' ),
-    url(r'^project/$', project_read_more, name='projectreadmore' ),
-]
+    url(r'^project/([0-9+])/$', project_read_more, name='projectreadmore' ),
+]  + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
+

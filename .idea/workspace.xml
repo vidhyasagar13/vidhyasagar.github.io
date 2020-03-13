@@ -2,12 +2,28 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d37a869b-10c5-4f92-960b-e4814a0577cf" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/landing/templates/landing/projects.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/landing/static/landing/vslogo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/landing/templates/landing/project_readmore.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/landing/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/landing/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/landing/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/landing/admin.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/landing/static/landing/wp-demo/zunday/wp-content/cache/wpfc-minified/1s9x4x6k/a3jot.css" beforeDir="false" afterPath="$PROJECT_DIR$/landing/static/landing/wp-demo/zunday/wp-content/cache/wpfc-minified/1s9x4x6k/a3jot.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/landing/static/landing/wp-demo/zunday/wp-content/cache/wpfc-minified/1s9x4x6k/img/default-skin.svg" beforeDir="false" afterPath="$PROJECT_DIR$/landing/static/landing/wp-demo/zunday/wp-content/cache/wpfc-minified/1s9x4x6k/img/default-skin.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/landing/static/landing/wp-demo/zunday/wp-content/cache/wpfc-minified/1s9x4x6k/img/fa-brands-400.svg" beforeDir="false" afterPath="$PROJECT_DIR$/landing/static/landing/wp-demo/zunday/wp-content/cache/wpfc-minified/1s9x4x6k/img/fa-brands-400.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/landing/static/landing/wp-demo/zunday/wp-content/cache/wpfc-minified/1s9x4x6k/img/fa-regular-400.svg" beforeDir="false" afterPath="$PROJECT_DIR$/landing/static/landing/wp-demo/zunday/wp-content/cache/wpfc-minified/1s9x4x6k/img/fa-regular-400.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/landing/static/landing/wp-demo/zunday/wp-content/cache/wpfc-minified/1s9x4x6k/img/fa-solid-900.svg" beforeDir="false" afterPath="$PROJECT_DIR$/landing/static/landing/wp-demo/zunday/wp-content/cache/wpfc-minified/1s9x4x6k/img/fa-solid-900.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/landing/static/landing/wp-demo/zunday/wp-content/cache/wpfc-minified/1s9x4x6k/img/lg.svg" beforeDir="false" afterPath="$PROJECT_DIR$/landing/static/landing/wp-demo/zunday/wp-content/cache/wpfc-minified/1s9x4x6k/img/lg.svg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/landing/templates/landing/landing.html" beforeDir="false" afterPath="$PROJECT_DIR$/landing/templates/landing/landing.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/landing/templates/landing/projects.html" beforeDir="false" afterPath="$PROJECT_DIR$/landing/templates/landing/projects.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/landing/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/landing/urls.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/landing/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/landing/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/portfolio/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/portfolio/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/landing/wp-demo/zunday/wp-content/cache/wpfc-minified/1s9x4x6k/a3jot.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/landing/wp-demo/zunday/wp-content/cache/wpfc-minified/1s9x4x6k/a3jot.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/landing/wp-demo/zunday/wp-content/cache/wpfc-minified/1s9x4x6k/img/default-skin.svg" beforeDir="false" afterPath="$PROJECT_DIR$/static/landing/wp-demo/zunday/wp-content/cache/wpfc-minified/1s9x4x6k/img/default-skin.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/landing/wp-demo/zunday/wp-content/cache/wpfc-minified/1s9x4x6k/img/fa-brands-400.svg" beforeDir="false" afterPath="$PROJECT_DIR$/static/landing/wp-demo/zunday/wp-content/cache/wpfc-minified/1s9x4x6k/img/fa-brands-400.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/landing/wp-demo/zunday/wp-content/cache/wpfc-minified/1s9x4x6k/img/fa-regular-400.svg" beforeDir="false" afterPath="$PROJECT_DIR$/static/landing/wp-demo/zunday/wp-content/cache/wpfc-minified/1s9x4x6k/img/fa-regular-400.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/landing/wp-demo/zunday/wp-content/cache/wpfc-minified/1s9x4x6k/img/fa-solid-900.svg" beforeDir="false" afterPath="$PROJECT_DIR$/static/landing/wp-demo/zunday/wp-content/cache/wpfc-minified/1s9x4x6k/img/fa-solid-900.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/landing/wp-demo/zunday/wp-content/cache/wpfc-minified/1s9x4x6k/img/lg.svg" beforeDir="false" afterPath="$PROJECT_DIR$/static/landing/wp-demo/zunday/wp-content/cache/wpfc-minified/1s9x4x6k/img/lg.svg" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -35,16 +51,16 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/landing/static/landing" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/landing/static/landing" />
+      <recent name="$PROJECT_DIR$/landing/static/landing/wp-demo/zunday/wp-content/themes/zunday/assets/img" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/landing/static/landing/wp-demo" />
       <recent name="$PROJECT_DIR$/landing/templates/landing" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/landing/static/landing/wp-demo/zunday/wp-content/themes/zunday/assets/img" />
-      <recent name="$PROJECT_DIR$/landing/static/landing" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -105,7 +121,8 @@
       <workItem from="1576919949130" duration="3875000" />
       <workItem from="1580853457676" duration="606000" />
       <workItem from="1580854512369" duration="3376000" />
-      <workItem from="1584062485970" duration="250000" />
+      <workItem from="1584062485970" duration="1054000" />
+      <workItem from="1584063991028" duration="3561000" />
     </task>
     <servers />
   </component>

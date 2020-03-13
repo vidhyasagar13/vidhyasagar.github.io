@@ -11,7 +11,7 @@
                   <div>
                      <p>{{ project.description }}</p>
                   </div>
-                  <p><a href="#" class="more-link"><span>Read More</span></a></p>
+                  <p><a href="{% url 'projectreadmore' project.id %}" class="more-link"><span>Read More</span></a></p>
                </div>
                <div class="iteminfo">
                   <div class="iteminfoCont time">
@@ -19,7 +19,7 @@
                   <div class="clearfix"></div>
                </div>
                <div class="bgOverlay"></div>
-                              <div class="bgImage" style="background-image: {% static 'landing/wp-demo/zunday/wp-content/uploads/2019/01/slider-1-1-674x1024.jpeg'%}"></div>
+                              <div class="bgImage" style="background-image: {{ project.image.url }}"></div>
                <div class="clearfix"></div>
             </div>
          </section>

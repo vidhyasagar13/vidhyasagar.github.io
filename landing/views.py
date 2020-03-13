@@ -16,8 +16,10 @@ def home(request):
     random.shuffle(skills)
     recent_posts = projects.order_by('-created_at')
     recent_posts = recent_posts[0:3]
-    recent_posts = recent_posts.values('title')
+    recent_posts = recent_posts.values('title','id')
     return render(request,'landing/landing.html',{'projects':projects, 'skills': skills[0:7], 'recent_posts': recent_posts})
 
-def project_read_more(request):
-    return render(request, 'landing/project_readmore.html')
+def project_read_more(request,id):
+    project = Project.objects.get(id=id)
+    other_project = Project.objects.exclude(id=id).first()
+    return render(request, 'landing/project_readmore.html',{'project':project, 'other_project':other_project})
