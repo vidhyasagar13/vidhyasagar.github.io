@@ -12,7 +12,7 @@ from landing.models import Project
 
 def home(request):
     projects = Project.objects.all()
-    skills = ['Data Science', 'Artificial Intelligence', 'PyTorch', 'Pandas', 'Matplotlib', 'Numpy', 'Pyspark', 'Python', 'Netica', 'Jess', 'Ruby', 'Django', 'Ruby On Rails', 'Machine Learning']
+    skills = ['Data Science', 'Artificial Intelligence', 'PyTorch', 'Pandas', 'Matplotlib', 'Numpy', 'Pyspark', 'Python', 'Netica', 'Jess', 'Ruby', 'Django', 'Ruby On Rails', 'Machine Learning', 'Keras', "PIL", 'CV2','Tensorflow']
     random.shuffle(skills)
     recent_posts = projects.order_by('-created_at')
     recent_posts = recent_posts[0:3]
