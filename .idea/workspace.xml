@@ -33,13 +33,15 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$/landing/static/landing/wp-demo" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/landing/static/landing" />
-      <recent name="$PROJECT_DIR$/landing/static/landing/wp-demo/zunday/wp-content/themes/zunday/assets/img" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/landing/static/landing" />
       <recent name="$PROJECT_DIR$/landing/static/landing/wp-demo" />
       <recent name="$PROJECT_DIR$/landing/templates/landing" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/landing/static/landing/wp-demo" />
+      <recent name="$PROJECT_DIR$/landing/static/landing" />
+      <recent name="$PROJECT_DIR$/landing/static/landing/wp-demo/zunday/wp-content/themes/zunday/assets/img" />
     </key>
   </component>
   <component name="RunDashboard">
