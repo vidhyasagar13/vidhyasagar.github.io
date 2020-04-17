@@ -23,7 +23,7 @@ def project_read_more(request,id):
     project = Project.objects.get(id=id)
     project_count = Project.objects.all().count()
     random_list = [i for i in range(1,project_count+1)]
-    random_list.remove(id)
+    random_list.remove(project.id)
     other_project = Project.objects.get(id=random.choice(random_list))
     return render(request, 'landing/project_readmore.html',{'project':project, 'other_project':other_project})
 
