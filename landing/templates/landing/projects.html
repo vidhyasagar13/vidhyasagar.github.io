@@ -9,7 +9,7 @@
                <div class="lineGeneral"></div>
                <div class="blogitem__description">
                   <div>
-                     <p>{{ project.description }}</p>
+                     <p>{{ project.description|safe }}</p>
                   </div>
                   <p><a href="{% url 'projectreadmore' project.id %}" class="more-link"><span>Read More</span></a></p>
                </div>
