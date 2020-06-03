@@ -11,11 +11,10 @@ from landing.models import Project
 
 
 def home(request):
-    projects = Project.objects.all()
+    projects = Project.objects.all().order_by('-created_at')
     skills = ['Data Science', 'Artificial Intelligence', 'PyTorch', 'Pandas', 'Matplotlib', 'Numpy', 'Pyspark', 'Python', 'Netica', 'Jess', 'Ruby', 'Django', 'Ruby On Rails', 'Machine Learning', 'Keras', "PIL", 'CV2','Tensorflow']
     random.shuffle(skills)
-    recent_posts = projects.order_by('-created_at')
-    recent_posts = recent_posts[0:3]
+    recent_posts = projects[0:3]
     recent_posts = recent_posts.values('title','id')
     return render(request,'landing/landing.html',{'projects':projects, 'skills': skills[0:7], 'recent_posts': recent_posts})
 
