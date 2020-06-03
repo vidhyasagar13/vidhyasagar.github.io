@@ -14,4 +14,10 @@ class Project(models.Model):
     date = models.DateField()
     created_at = models.DateField(auto_now_add= True)
     updated_at = models.DateField(auto_now_add= True)
+    
+    def __str__(self):
+        return self.title
+    
+    def __unicode(self):
+        return self.title
 
